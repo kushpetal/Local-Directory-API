@@ -1,6 +1,5 @@
 import {gql} from "apollo-server-express";
 
-
 const typeDefs = gql`
 
     type Attributes {
@@ -13,8 +12,7 @@ const typeDefs = gql`
     }
 
     type Query {
-        directoryListing(rootPath: String!, depth: Int!): Attributes
+        fileDirectory(rootPath: String!, depth: Int!): Attributes
     }
 `
-
 export default typeDefs;

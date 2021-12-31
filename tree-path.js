@@ -87,7 +87,7 @@ function buildTree(rootPath, depth) {
 
 const resolvers = {
     Query: {
-        directoryListing: (root, {rootPath, depth}) => {
+        fileDirectory: (root, {rootPath, depth}) => {
             return buildTree(rootPath, depth);
         }
     }
