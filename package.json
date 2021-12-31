@@ -1,0 +1,32 @@
+{
+  "name": "directorylistingapi",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A Node.Js API allowing a client app to obtain the full directory listing of a given directory path on the local filesystem. Listing includes the full path, file size and attribute information. Developed with GraphQl.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushpetal/NodeJsApi.git"
+  },
+  "author": "Kush Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushpetal/Local-Directory-API/issues"
+  },
+  "homepage": "https://github.com/kushpetal/Local-Directory-API#readme",
+  "dependencies": {
+    "apollo-server-core": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "dree": "^2.8.3",
+    "express": "^4.17.2",
+    "graphql": "^15.8.0",
+    "nodemon": "^2.0.15",
+    "script": "^0.1.4"
+  }
+}
